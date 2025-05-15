@@ -1,0 +1,11 @@
+aquamarine:   Aquamarine
+aquamarine:
+aquamarine: Aquamarine is a very light linux rendering backend library. It provides
+aquamarine: basic abstractions for an application to render on a Wayland session
+aquamarine: (in a window) or a native DRM session.
+aquamarine: It is agnostic of the rendering API (Vulkan/OpenGL) and designed to be
+aquamarine: lightweight, performant, and minimal.
+aquamarine: Aquamarine provides no bindings for other languages. It is C++-only.
+aquamarine:
+aquamarine: https://github.com/hyprwm/aquamarine
+aquamarine:

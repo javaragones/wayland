@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+            |-----handy-ruler------------------------------------------------------|
+hyprland-protocols: Wayland protocol extensions for Hyprland.
+hyprland-protocols: 
+hyprland-protocols: This repository exists in an effort to bridge the gap between
+hyprland-protocols: Hyprland and KDE/Gnome's functionality.
+hyprland-protocols: Since wayland-protocols is slow to change (on top of Hyprland not  
+hyprland-protocols: being allowed to contribute), we have to maintain a set of protocols 
+hyprland-protocols: Hyprland uses to plumb some things / add a few minor features. Most 
+hyprland-protocols: of the protocols here are small, hyprland-exclusive plumbing protocols
+hyprland-protocols: anyways.
+hyprland-protocols: https://hyprland.org
+hyprland-protocols: 

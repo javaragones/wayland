@@ -1,0 +1,11 @@
+hyprpaper:    hyprpaper
+hyprpaper:
+hyprpaper: Hyprpaper is a blazing fast wallpaper utility for Hyprland 
+hyprpaper: with the ability to dynamically change wallpapers through sockets. 
+hyprpaper: It will work on all wlroots-based compositors, though.
+hyprpaper:
+hyprpaper:
+hyprpaper:
+hyprpaper:
+hyprpaper: https://github.com/hyprwm/hyprpaper
+hyprpaper:

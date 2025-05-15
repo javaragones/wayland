@@ -1,0 +1,11 @@
+hyprcursor:  hyprcursor
+hyprcursor:
+hyprcursor: The hyprland cursor format, library and utilities.
+hyprcursor: * hyprcursor-util
+hyprcursor: Utility for creating hyprcursor themes. See its readme in hyprcursor-util/
+hyprcursor: * libhyprcursor
+hyprcursor: The library to use for implementing hyprcursors in your compositor or app.
+hyprcurosr:
+hyprcursor: It provides C and C++ bindings.
+hyprcursor:
+hyprcursor: https://github.com/hyprwm/hyprcursor
