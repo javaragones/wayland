@@ -10,6 +10,8 @@ Cada uno provee la última versión y el link de desdarga de la versión estable
 
 El directorio de trabajo es /tmp/SBo.
 
+NOTA : elpaquete wlrppts esta creado a partir de la versión current  de slackware.
+
 
 Javier Aragonés
 
