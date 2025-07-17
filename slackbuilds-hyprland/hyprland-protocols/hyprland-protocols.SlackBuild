@@ -26,10 +26,9 @@ cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=hyprland-protocols
 VERSION=${VERSION:-0.6.4}	
-BUILD=${BUILD:-1
+BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}		
 PKGTYPE=${PKGTYPE:-tgz}
-
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
     i?86) ARCH=i586 ;;
@@ -38,11 +37,11 @@ if [ -z "$ARCH" ]; then
        *) ARCH=$( uname -m ) ;;
   esac
 fi
-
 if [ ! -z "${PRINT_PACKAGE_NAME}" ]; then
   echo "$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE"
   exit 0
 fi
+
 
 wget -c https://github.com/hyprwm/hyprland-protocols/archive/refs/tags/v$VERSION.tar.gz
 
@@ -78,6 +77,7 @@ find -L . \
   -o -perm 511 \) -exec chmod 755 {} \; -o \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
+
 
 mkdir build/
 cd build/

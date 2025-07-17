@@ -71,6 +71,7 @@ mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
 rm -rf $PRGNAM-$VERSION
 tar xvf $CWD/v$VERSION.tar.gz
+#git clone --recursive https://github.com/hyprwm/hyprcursor.git
 cd $PRGNAM-$VERSION
 chown -R root:root .
 find -L . \

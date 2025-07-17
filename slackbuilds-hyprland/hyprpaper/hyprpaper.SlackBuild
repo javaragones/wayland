@@ -44,7 +44,7 @@ if [ ! -z "${PRINT_PACKAGE_NAME}" ]; then
   exit 0
 fi
 
- wget -c https://github.com/hyprwm/hyprpaper/archive/refs/tags/v$VERSION.tar.gz
+wget -c https://github.com/hyprwm/hyprpaper/archive/refs/tags/v$VERSION.tar.gz
 
 TMP=${TMP:-/tmp/SBo}	
 PKG=$TMP/package-$PRGNAM
@@ -73,7 +73,6 @@ rm -rf $PRGNAM-$VERSION
 #mkdir -p $PRGNAM
 #git clone https://github.com/hyprwm/hyprpaper.git
 tar xvf $CWD/v$VERSION.tar.gz
-#cd $PRGNAM
 cd $PRGNAM-$VERSION
 chown -R root:root .
 find -L . \

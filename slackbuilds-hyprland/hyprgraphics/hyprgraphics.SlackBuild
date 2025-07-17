@@ -25,9 +25,9 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=hyprgraphics
-VERSION=${VERSION:-0.1.4}	
-BUILD=${BUILD:-2}
-TAG=${TAG:-_jda}		
+VERSION=${VERSION:-0.1.5}	
+BUILD=${BUILD:-1}
+TAG=${TAG:-_SBo}		
 PKGTYPE=${PKGTYPE:-tgz}
 
 if [ -z "$ARCH" ]; then
@@ -74,8 +74,9 @@ set -e
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUP
 cd $TMP
-rm -rf $PRGNAM 
+rm -rf $PRGNAM-$VERSION 
 tar xvf $CWD/v$VERSION.tar.gz 
+#git clone --recursive https://github.com/hyprwm/hyprgraphics.git
 cd $PRGNAM-$VERSION
 chown -R root:root .
 find -L . \
